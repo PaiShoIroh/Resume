@@ -4,7 +4,7 @@
 % Version 1.1 (30/4/2014)
 %
 % Original author:
-% 
+%
 %
 % Original repository:
 % https://github.com/deedydas/Deedy-Resume
@@ -15,16 +15,16 @@
 % default. If you get compilation errors saying a font is missing, find the line
 % on which the font is used and either change it to a font included with your
 % operating system or comment the line out to use the default font.
-% 
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% 
+%
 % TODO:
 % 1. Integrate biber/bibtex for article citation under publications.
 % 2. Figure out a smoother way for the document to flow onto the next page.
 % 3. Add styling information for a "Projects/Hacks" section.
 % 4. Add location/address information
 % 5. Merge OpenFont and MacFonts as a single sty with options.
-% 
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 % CHANGELOG:
@@ -63,9 +63,12 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\namesection{Aditya Goel}{}{ \urlstyle{same}\url{website-goes-here} \\
-\href{mailto:irm2016003@iiita.ac.in}{irm2016003@iiita.ac.in} | 900-179-1793
+\namesection{Aditya Goel}{}{ \href{mailto:irm2016003@iiita.ac.in}{irm2016003@iiita.ac.in} | 900-179-1793
 }
+
+%\namesection{Aditya Goel}{}{ \urlstyle{same}\url{website-goes-here} \\
+%\href{mailto:irm2016003@iiita.ac.in}{irm2016003@iiita.ac.in} | 900-179-1793
+%}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -73,28 +76,28 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{minipage}[t]{0.33\textwidth} 
+\begin{minipage}[t]{0.33\textwidth}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EDUCATION
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Education} 
+\section{Education}
 
 \subsection{IIIT - Allahabad}
 \textit{B.Tech in Information Technology\\ Dual M.Tech in IT (Robotics) \\ Cum. GPA: 8.36}
 %\location{Expected Dec 2014 | Ithaca, NY \\ Cum. GPA: N/A}
 \sectionsep
 
-\subsection{JPHS High School, Jaipur}
-\location{Grad. May 2016\\ Percentage: 95.5\%\\ (Best 4)}
+\subsection{JPHS, Jaipur}
+\location{High School\\Grad. May 2016\\ Percentage: 95.5\%\\ (Best 4)}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     LINKS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Links} 
+\section{Links}
 Github:// \href{https://github.com/Ellusionists}{\custombold{Ellusionists}} \\
 LinkedIn://  \href{https://www.linkedin.com/in/aditya-goel-11a578134/}{\custombold{AdityaGoel}} \\
 Twitter://  \href{https://twitter.com/itsAdityaGoel}{\custombold{@itsAdityaGoel}} \\
@@ -110,9 +113,9 @@ Twitter://  \href{https://twitter.com/itsAdityaGoel}{\custombold{@itsAdityaGoel}
 \custombold{Artificial Intelligence} (on-going) \\
 \custombold{Software Engineering }(on-going)\\
 \custombold{Database Management System }\\
-Design, Analysis of Algorithms\\
+\custombold{Operating Systems} \\
+Design and Analysis of Algorithms\\
 Object Oriented Methodologies \\
-Operating Systems \\
 Computer Architecture\\
 %Computer Graphics + Practicum \\
 %{\footnotesize \textit{\textbf{(Research Asst. \& Teaching Asst) }}} \\
@@ -126,13 +129,13 @@ Unix Tools and Scripting \\
 \section{Skills}
 \subsection{Programming}
 \location{Languages}
-Python \textbullet{}   Java \textbullet{} JavaScript \textbullet{} C/C++ \\
+\custombold{Python} \textbullet{}   \custombold{Java} \textbullet{} \custombold{JavaScript} \textbullet{} \custombold{C/C++} \\
 \location{Development Stacks}
-Django (Python) \textbullet{} Netbeans (Java) \textbullet{} Android Studio \\
+\custombold{Django (Python)} \textbullet{} \custombold{Netbeans (Java)} \textbullet{} Android Studio \\
 \location{Libraries}
-Tensorflow, Keras, Theano, Numpy, Scikit
+\custombold{Tensorflow}, \custombold{Keras},\custombold{Pandas},\\ Theano, Numpy, Scikit\\
 \location{Familiar:}
-Matlab \textbullet{} \LaTeX \textbullet{} MySQL/NoSQL Databases
+\custombold{Jupyter} \textbullet{} \custombold{Anaconda} \textbullet{}\custombold{Matlab} \textbullet{} \LaTeX \textbullet{} \custombold{MySQL}/NoSQL Databases
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -141,9 +144,9 @@ Matlab \textbullet{} \LaTeX \textbullet{} MySQL/NoSQL Databases
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\end{minipage} 
+\end{minipage}
 \hfill
-\begin{minipage}[t]{0.66\textwidth} 
+\begin{minipage}[t]{0.66\textwidth}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EXPERIENCE
@@ -160,10 +163,21 @@ Matlab \textbullet{} \LaTeX \textbullet{} MySQL/NoSQL Databases
 % \end{tightemize}
 % \sectionsep
 
+\href{https://github.com/Ellusionists/Deep-Learning-Models}{\runsubsection{Deep Learning}}
+\descript{| Algorithms in Python }
+\location{August 2018 - Present}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Predicting \custombold{stock prices} of various companies with high accuracy \space using \custombold{LSTMs}  %\space is illusion 100
+\item Detection of potential fraud in credit card application using \custombold{Hybrid Self Organizing Maps}
+\item  \custombold{Churn Modeling} for banks: Predicting customer retention based on their geo-demographical and transactional information
+\end{tightemize}
+\sectionsep
+
 \href{https://github.com/Ellusionists/VirtualClassroom}{\runsubsection{Virtual Classroom}}
 \descript{| Web-App using Django Framework }
 \location{March 2018 – May 2018}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
+%\vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
 \item Created a 'Virtual Classroom' where students can enroll themselves in courses and view or download related content (videos, presentations, notes) regularly posted by the faculty, ask questions and get answers from faculty or peers.
 \item Responsible for modeling and coding the back-end system for the project
@@ -184,7 +198,7 @@ Working with \custombold{\href{https://sites.google.com/site/gcnandi/}{Prof G.C.
 %     AWARDS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Awards} 
+\section{Awards}
 \begin{tabular}{rll}
 2017	     & Scholarship  & \custombold{Highest CGPA} in 1st year\\
 \end{tabular}
@@ -194,7 +208,7 @@ Working with \custombold{\href{https://sites.google.com/site/gcnandi/}{Prof G.C.
 %     Volunteering Experiences
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Volunteering} 
+\section{Volunteering}
 \runsubsection{Activating leadership through exchanges facilitated by AIESEC\\}
 \vspace{\topsep}
 \begin{tabular}{rll}
@@ -208,7 +222,7 @@ Working with \custombold{\href{https://sites.google.com/site/gcnandi/}{Prof G.C.
 %     SOCIETIES
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Leadership} 
+\section{Leadership}
 
 \begin{tabular}{rll}
 2018   & Coordinator   & \custombold{AIESEC (Allahabad)}\\
@@ -221,25 +235,24 @@ Working with \custombold{\href{https://sites.google.com/site/gcnandi/}{Prof G.C.
 %     Conferences
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Conferences} 
+\section{Conferences}
 \begin{tabular}{rll}
-2017	     & Shanghai, China  & Leadership Development Conference\\
-2017	     & Delhi-NCR  		& PyCon-India\\
-2017	     & Jodhpur  		& Youth Leadership Conference\\
+2017	     & \custombold{Shanghai, China}  & \custombold{Youth Leadership Development Conference}\\
+2017	     & \custombold{Delhi-NCR}  		& \custombold{PyCon-India}\\
 \end{tabular}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     Hackathons
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Hackathons} 
+\section{Hackathons}
 \begin{tabular}{rll}
-2017	     & Jaipur  & Rajasthan Hackathon\\
-2017	     & MNNIT, Allahabad  		& Hack36\\
-2017	     & IIIT-A  		& IIIT-A Hacks\\
+2017	     & Jaipur  & \custombold{Rajasthan Hackathon}\\
+2017	     & MNNIT, Allahabad  		& \custombold{Hack36}\\
+2017	     & IIIT-A  		& \custombold{IIIT-A Hacks}\\
 \end{tabular}
 \sectionsep
 
 
-\end{minipage} 
+\end{minipage}
 \end{document}  \documentclass[]{article}
