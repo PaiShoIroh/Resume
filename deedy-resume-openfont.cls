@@ -20,14 +20,14 @@
 
 % Color definitions
 \definecolor{date}{HTML}{666666} 
-\definecolor{primary}{HTML}{2b2b2b} 
-\definecolor{headings}{HTML}{6A6A6A}
+\definecolor{primary}{HTML}{111111} 
+\definecolor{headings}{HTML}{135479}
 \definecolor{subheadings}{HTML}{333333}
 
 % Set main fonts
 \defaultfontfeatures{Mapping=tex-text}
 \setmainfont[Color=primary, Path = fonts/lato/]{Lato-Lig}
-\setsansfont[Scale=MatchLowercase,Mapping=tex-text, Path = fonts/raleway/]{Raleway-ExtraLight}
+% \setsansfont[Scale=MatchLowercase,Mapping=tex-text, Path = fonts/raleway/]{Raleway-ExtraLight}
 \newcommand{\custombold}[1]{\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Reg}\selectfont #1 \normalfont}
 
 % Date command
@@ -57,6 +57,7 @@ Last Updated on
 % Headings command
 \titleformat{\section}{\color{headings}
 \scshape\fontspec[Path = fonts/lato/]{Lato-Lig}\fontsize{16pt}{24pt}\selectfont \raggedright\uppercase}{} {0em}{}
+
 
 % Subeadings command
 \titleformat{\subsection}{\color{subheadings}
