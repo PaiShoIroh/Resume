@@ -45,7 +45,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \documentclass[]{deedy-resume-openfont}
-
+\usepackage{fontawesome}
 
 \begin{document}
 
@@ -54,7 +54,7 @@
 %     LAST UPDATED DATE
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\lastupdated
+%\lastupdated
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -63,8 +63,10 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\namesection{Aditya Goel}{}{ \href{mailto:irm2016003@iiita.ac.in}{irm2016003@iiita.ac.in} | 900-179-1793
+\namesection{Aditya Goel}{}{ \href{mailto:irm2016003@iiita.ac.in}{IRM2016003@iiita.ac.in}
 }
+
+
 
 %\namesection{Aditya Goel}{}{ \urlstyle{same}\url{website-goes-here} \\
 %\href{mailto:irm2016003@iiita.ac.in}{irm2016003@iiita.ac.in} | 900-179-1793
@@ -84,13 +86,13 @@
 
 \section{Education} 
 
-\subsection{IIIT - Allahabad}
-\textit{(Presently 6th Semester)\\B.Tech in Information Technology\\ Dual Degree M.Tech in IT (Robotics)}\\ \custombold{Cum. GPA: 8.49}
+\runsubsection{IIIT - Allahabad}\\
+\textit{\custombold{Pre-Final Year}\\B.Tech in Information Technology\\ Dual Degree M.Tech in IT (Robotics)}\\ \custombold{Cum. GPA: 8.56}
 %\location{Expected Dec 2014 | Ithaca, NY \\ Cum. GPA: N/A}
 \sectionsep
 
-\subsection{JPHS, Jaipur}
-\textit{High School\\Grad. May 2016\\ Percentage: 95.5\%\\}
+\runsubsection{JPHS, Jaipur}\\
+\textit{High School\\Grad. May 2016\\ Percentage: 95.6\%\\}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -98,9 +100,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Links} 
-Github:// \href{https://github.com/Ellusionists}{\custombold{Ellusionists}} \\
-LinkedIn://  \href{https://www.linkedin.com/in/aditya-goel-11a578134/}{\custombold{AdityaGoel}} \\
-Twitter://  \href{https://twitter.com/itsAdityaGoel}{\custombold{@itsAdityaGoel}} \\
+\faGithub \href{https://github.com/Ellusionists}{\custombold{ Ellusionists}} \\
+\faLinkedin  \href{https://www.linkedin.com/in/aditya-goel-11a578134/}{\custombold{ AdityaGoel}} \\
+\faTwitter \href{https://twitter.com/itsAdityaGoel}{\custombold{@itsAdityaGoel}} \\
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -109,21 +111,22 @@ Twitter://  \href{https://twitter.com/itsAdityaGoel}{\custombold{@itsAdityaGoel}
 
 \section{Coursework}
 
-\subsection{Undergraduate}
+\runsubsection{Undergraduate} \\
 \custombold{Computer Vision} \\
 \custombold{Data Mining and Warehouse} \\
 \custombold{Image and Visual Processing}\\
 \custombold{Artificial Intelligence}\\
-% \custombold{Software Engineering}\\
+\custombold{Software Engineering}\\
 \custombold{Convex Optimization}\\
-%\custombold{Database Management System }\\
+% \custombold{Business Informatics}\\
+% \custombold{Principles of Economics}\\
+\custombold{Database Management System }\\
 \custombold{Operating Systems} \\
-%\custombold{Computer Networks} \\
-Design and Analysis of Algorithms\\
+\custombold{Computer Networks} \\
+%Design and Analysis of Algorithms\\
 %Object Oriented Methodologies \\
-Computer Architecture\\
-Graphic and Visual Computing \\
-%Computer Graphics + Practicum \\
+%Computer Architecture\\
+%Graphic and Visual Computing \\
 %{\footnotesize \textit{\textbf{(Research Asst. \& Teaching Asst) }}} \\
 %Unix Tools and Scripting \\
 \sectionsep
@@ -133,15 +136,16 @@ Graphic and Visual Computing \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Skills}
-\subsection{Programming}
+\runsubsection{Programming} \\
 \location{Languages}
-\custombold{Python} \textbullet{}   \custombold{Java} \textbullet{} \custombold{JavaScript} \textbullet{} \custombold{C/C++} \\
+\textbullet{} \custombold{Python} \textbullet{} \custombold{PySpark} \textbullet{} \custombold{Scala} \\\textbullet{} \custombold{Java} \textbullet{} \custombold{C++}\\
 \location{Development Stacks}
-\custombold{Django (Python)} \textbullet{} \custombold{Netbeans (Java)} \textbullet{} NodeJS \\
-\location{Libraries}
-\custombold{Tensorflow}, \custombold{Keras},\custombold{Numpy},\\ Theano, Pandas, Scikit\\
-\location{Familiar:}
-\custombold{Jupyter} \textbullet{} \custombold{Anaconda} \textbullet{}\custombold{Matlab} \textbullet{} \custombold{\LaTeX} \textbullet{} \custombold{MySQL}
+\textbullet{} \custombold{Django (Python)} \textbullet{} \custombold{ReactJS}\\ \textbullet{} \custombold{Netbeans (Java)} \\
+\location{Data Science Libraries}
+\textbullet{} \custombold{Tensorflow} \textbullet{} \custombold{Keras} \textbullet{} \custombold{Matplotlib}\\ \textbullet{} \custombold{Seaborn}
+\textbullet{} \custombold{Pandas} \textbullet{} \custombold{Scikit}\\
+\location{Data Science Tools}
+\textbullet{} \custombold{Jupyter Labs} \textbullet{} \custombold{Hadoop}\\ \textbullet{} \custombold{Hive} \textbullet{} \custombold{Matlab}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -157,45 +161,80 @@ Graphic and Visual Computing \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EXPERIENCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Experience}
+{\runsubsection{Data Science Intern | Jio Big Data Analytics}}\\
+\location{May 2019 - Now | Reliance Jio, Mumbai }
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
 
+
+\item Working under guidance of\custombold{ \href{https://www.linkedin.com/in/shaileshk/}{Dr. Shailesh Kumar}} on \custombold{"Formation of Logical Feature Communities"}.
+
+\item Responsible for \custombold{implementing community detection model from scratch} and integrating it with Jio Data Science Platform.
+
+\item Built a \custombold{Data Agnostic Model} that \custombold{automatically clean fuzzy data} and \custombold{prevents data leakage}.
+
+% \item Ran simulation on several \custombold{Teleco datasets} and achieved \custombold{significantly high clustering accuracy} when compared to other methods.
+\end{tightemize}
+\sectionsep
+
+
+
+% \href{http://robita.iiita.ac.in/}
+{\runsubsection{Deep Learning Intern| Detection in Cancer Images}}\\
+\location{Feb 2019 - April 2019 | LYTiQ GmbH, Germany (Remote)}
+%\vspace{\topsep} % Hacky fix for awkward extra vertical space
+
+\begin{tightemize}
+\item Developed a model for calculating the \custombold{count of mitotic nuclei} in \custombold{breast cancer histological images}.
+
+\item Improved model using the latest \custombold{fastai library} and then hyper-parameter tuning.
+
+\item \custombold{ICPR 2012 and 2014 datasets} were used for training of the model.
+\end{tightemize}
+\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     RESEARCH
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Publications}
 
-\section{Research}
-\href{http://robita.iiita.ac.in/}{\runsubsection{Hand Gesture Recognition on Nao Robots}}\\
-\location{Aug 2018 – Nov 2018 | IIIT-A}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
+
+\href{http://robita.iiita.ac.in/}{\runsubsection{Multi-Modal System in Humanoid Robots}}\\
+\location{Robotics and Machine Intelligence Lab, IIIT-A}
 \begin{tightemize}
-\item Led a project under the guidance of  \custombold{\href{https://sites.google.com/site/gcnandi/}{Prof G.C. Nandi} (Chairman, Machine Intelligence and Robotics Laboratory)}.
-\item Built multi-class CNN based recognition system trained over a self created dataset containing 7 classes of gestures.
-\item Primary aim was to built a system that would allow robots to communicate effective with differently-abled people.
+\item Designed a \custombold{fusion system model} which inputs both \custombold{speech and gestures as mode of expression of command} for a robot.
+\item Primary aim is to built a system that would allow robots to \custombold{communicate effective with differently-abled people.}
+\item \custombold{Real time:} Commands are followed by the robot with \custombold{minimum latency}.
+
+\item \custombold{Proposed research submitted under \href{https://ro-man2019.org/}{RO-MAN 2019 Conference}}.
 \end{tightemize}
 \sectionsep
 
-% \href{http://robita.iiita.ac.in/}
-{\runsubsection{Decision Support Systems}}\\
-\location{April 2018 – May 2018 | IIIT-A}
-\begin{tightemize}
-\item 
-Worked under supervision of \custombold{\href{https://it.iiita.ac.in/?pg=facultypage&uid=ranjana}{Dr. Ranjana Vyas}} on the topic \textit{"\custombold{Maximizing customer satisfaction through an online recommendation system"}}.
-\item Focused on customer's \textit{after-use gratification} as a measure of success of the model instead of the act of purchasing a product.
-\end{tightemize}
-\sectionsep
+% \href{http://robita.iiita.ac.in/}{\runsubsection{Hand Gesture Recognition on Nao Robots}}\\
+% \location{Aug 2018 – Nov 2018 | IIIT-A}
+% \vspace{\topsep} % Hacky fix for awkward extra vertical space
+% \begin{tightemize}
+% \item Led a project under the guidance of  \custombold{\href{https://sites.google.com/site/gcnandi/}{Prof G.C. Nandi} (Chairman, Machine Intelligence and Robotics Laboratory)}.
+% \item Built multi-class CNN based recognition system trained over a self created dataset containing 7 classes of gestures.
+% \item Primary aim was to built a system that would allow robots to communicate effective with differently-abled people.
+% \end{tightemize}
+% \sectionsep
+
+% % \href{http://robita.iiita.ac.in/}
+% {\runsubsection{Decision Support Systems}}\\
+% \location{April 2018 – May 2018 | IIIT-A}
+% \begin{tightemize}
+% \item 
+% Worked under supervision of \custombold{\href{https://it.iiita.ac.in/?pg=facultypage&uid=ranjana}{Dr. Ranjana Vyas}} on the topic \textit{"\custombold{Maximizing customer satisfaction through an online recommendation system"}}.
+% \item Focused on customer's \textit{after-use gratification} as a measure of success of the model instead of the act of purchasing a product.
+% \end{tightemize}
+% \sectionsep
 
 
 \section{Projects}
 
-% \runsubsection{Coursera}
-% \descript{| KPCB Fellow + Software Engineering Intern }
-% \location{Expected June 2014 – Sep 2014 | Mountain View, CA}
-% \vspace{\topsep} % Hacky fix for awkward extra vertical space
-% \begin{tightemize}
-% \item 52 out of 2500 applicants chosen to be a KPCB Fellow 2014.
-% \end{tightemize}
-% \sectionsep
-
+%%%%%% Deep learning A-Z course project %%%%%%%%
 % \href{https://github.com/Ellusionists/Deep-Learning-Models}{\runsubsection{Machine Learning \& Deep Learning}}
 % \descript{| Algorithms in Python }
 % \location{July 2018 - Present}
@@ -208,53 +247,59 @@ Worked under supervision of \custombold{\href{https://it.iiita.ac.in/?pg=faculty
 % \end{tightemize}
 % \sectionsep
 
+
+%%%%%%%%% Expert System Project %%%%%%%
 {\runsubsection{Expert System}}
-\descript{| Career Guidance Expert System Using CLIPS}
+\descript{| AI Career Guidance Expert System}
 \location{October 2018 – Nov 2018}
 % \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Developed an expert system which would determine Myers-Briggs Type of a person and then suggest relevant career options on basis of academic background on basis of 30 unique questions that are asked to the user.
-\item Responsible for \custombold{modeling and coding the system} for the project
+\item Developed an expert system that \custombold{determines Myers-Briggs Type} of a person. 
+\item The system \custombold{suggests relevant career options} on the basis of personality and academic background through a questionnaire.
+\item Modelled and coded the entire system. \custombold{}
 \end{tightemize}
 \sectionsep
 
+%%%%%   VIRTUAL CLASSROOM %%%%%%%%%
 \href{https://github.com/Ellusionists/VirtualClassroom}{\runsubsection{Virtual Classroom}}
-\descript{| Web-App using Django Framework }
+\descript{| Web-App using Python-Django}
 \location{March 2018 – May 2018}
 %\vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Created a 'Virtual Classroom' where students can enroll themselves in courses and view or download related content (videos, presentations, notes) regularly posted by the faculty, ask questions and get answers from faculty or peers.
-\item Responsible for \custombold{modeling and coding the back-end system} for the project
+\item Created a \custombold{'Virtual Classroom'} where students can \custombold{enroll, view and download course content.}
+\item Content includes \custombold{videos, presentations, notes, etc.} which may be  posted by faculty only. \custombold{Questions may be asked and answered by students.}
+\item Responsible for \custombold{designing and implementing back-end system} for the project.
 \end{tightemize}
 \sectionsep
 
-{\runsubsection{Impact of demonetization in student life}}\\
-% \descript{}
-\location{October 2018}
-%\vspace{\topsep} % Hacky fix for awkward extra vertical space
-\begin{tightemize}
-\item Wrote a paper on results of survey I conducted among the student of IIIT to study the impact of demonetization within college students.
-\item compared average change in expenditures, ease of usage of mobile payment apps and discussed possible improvements them.
-\end{tightemize}
-\sectionsep
+%%%%%%%%%% ECONOMICS - DEMONITIZATION %%%%%%%%%%
+% {\runsubsection{Impact of demonetization in student life}}\\
+% % \descript{}
+% \location{October 2018}
+% %\vspace{\topsep} % Hacky fix for awkward extra vertical space
+% \begin{tightemize}
+% \item Wrote a paper on results of survey I conducted among the student of IIIT to study the impact of demonetization within college students.
+% \item Compared average change in expenditures, ease of usage of mobile payment apps and discussed possible improvements them.
+% \end{tightemize}
+% \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     AWARDS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Scholarships} 
-\begin{tabular}{rll}
-\custombold{2017	     & Merit  & }\custombold{Highest CGPA} in 1st year\\
-\end{tabular}
-\sectionsep
+% \section{Scholarships} 
+% \begin{tabular}{rll}
+% \custombold{2017	     & Merit  & }\custombold{Highest CGPA} in 1st year\\
+% \end{tabular}
+% \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     Volunteering Experiences
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Volunteering} 
-\runsubsection{Activating leadership through exchanges facilitated by AIESEC\\}
-\vspace{\topsep}
+\section{Global Volunteering} 
+%\vspace{\topsep}
+\custombold{Leadership Development | AIESEC Global Exchange Program \\}
 \begin{tabular}{rll}
 May-July'18	     & \custombold{Kharkov, Ukraine}  & Quality Education For Everyone\\
 May-July'17	     & \custombold{Hefei, China}  & Sustainable Cities And Communities\\
