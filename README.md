@@ -1,6 +1,5 @@
 # Resume
-### Up to date till Jan'19.
-Available for hiring! 
+### Last Update June'19.! 
 [Have a look](Resume.pdf)
 
-Check out my [data science blog](https://www.learndatascience.in)
+Check out my new [data science blog](http://www.learndatascience.in)
