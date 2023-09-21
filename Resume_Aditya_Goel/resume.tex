@@ -1,0 +1,334 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Awesome Cover Letter
+% XeLaTeX Template
+% Version 1.1 (9/1/2016)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% License:https://www.overleaf.com/project/5c3dcb24970e2c1ceb9b9822
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template must be compiled with XeLaTeX, the below lines will ensure this
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt, a4paper]{awesome-cv} % A4 paper size by default, use 'letterpaper' for US letter
+
+\geometry{left=2cm, top=1.5cm, right=2cm, bottom=2cm, footskip=.5cm} % Configure page margins with geometry
+ 
+\fontdir[fonts/] % Specify the location of the included fonts
+
+% Color for highlights
+\colorlet{awesome}{awesome-red} % Default colors include: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange, awesome-nephritis, awesome-concrete, awesome-darknight
+%\definecolor{awesome}{HTML}{CA63A8} % Uncomment if you would like to specify your own color
+
+% Colors for text - uncomment and modify
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad} % If you would like to change the social information separator from a pipe (|) to something else
+
+%----------------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%----------------------------------------------------------------------------------------
+
+\name{Aditya}{Goel}
+
+\email{reachadityagoel@gmail.com}
+
+\linkedin{aditya-goel-11a578134}
+
+\twitter{itsAdityaGoel}
+
+% \quote{} % A quote or statement
+
+%----------------------------------------------------------------------------------------
+%	RECIPIENT/POSITION/LETTER INFORMATION
+%	All of the below lines must be filled out
+%----------------------------------------------------------------------------------------
+
+
+
+% \letterclosing{Sincerely,} % How the letter is closed
+
+% \letterenclosure[Attached]{Curriculum Vitae} % Any enclosures with the letter
+
+\makecvfooter{\today}{Aditya Goel}{} % Specify the letter footer with 3 arguments: (<left>, <center>, <right>), leave any of these blank if they are not needed
+  
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvheader % Print the header
+
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsection{Education}
+
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cventries}
+
+%---------------------------------------------------------
+  \cventry
+    {B.Tech + M.tech (Dual Degree)} % Degree
+    {Indian Institute of Information Technology} % Institution
+    {Allahabad, UP, India} % Location
+    {June. 2016 - Jul. 2021} % Date(s)
+    {
+      \begin{cvitems} % Description(s) bullet points
+        \item{CGPA : \textbf{9.02}}
+        \item{ Bachelors and Masters in Information Technology}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+\end{cventries}
+%-------------------------------------------------------------------------------
+
+
+
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsection{Work Experience}
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+
+\begin{cventries}
+
+%---------------------------------------------------------
+  \cventry
+    {Software Developer | Supply Chain Engineering} % Job title
+    {BlinkIt} % Organization
+    {Remote} % Location
+    {Aug 2021 - Present} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {As a \textbf{product engineer}, I take \textbf{end-to-end ownership} of small and medium features, notably \textbf{BlinkIt-Hyperpure (Zomato)} EDI System, \textbf{Inventory Audit} Workflow, \textbf{Task Auto-Assignment Logic}}
+        \item {\textbf{Independently developed} a \textbf{resource allocation engine} for warehouses workforce automation that saved \textbf{75 lakhs per month} in employee cost and \textbf{eliminated 60 hours+} of managerial overhead per day}
+        \item {\textbf{Successfully} migrated entire \textbf{inventory pricing} to a new service in a different language, empowering new pricing pipelines and saved several weeks of addition development effort}
+        \item{Optimised 10+ nightly jobs to decrease execution time from \textbf{few hours to less than 5 minutes}}
+        \item {Contributed in \textbf{cross-team projects} in building \textbf{Multi-Replenishment System}. Shortened the \textbf{New Product On-boarding} and \textbf{Offer Creation} Systems from \textbf{2 weeks to 3 days}}
+        \item{Reworked the \textbf{GST computation logic} to accommodate for new product categories and tax changes}
+        \item {Implemented \textbf{fail-safe layer} for communication between \textbf{Celery and SQS}. Set up CRON jobs to ensure that 100\% messages are processed despite any initial failure(s).}
+        \item {Contributed towards the legal restructuring of \textbf{Grofers to BlinkIt}, worked on invoice sequencing logic and multi-vendor support}
+        \item {Responsible for \textbf{Design} (Correctness and Scalability), \textbf{Implementation}, Setting up \textbf{Monitoring and Alerting} (Grafana Dashboards, Sentry, Opsgenie), \textbf{Debug Toolkit} (APIs, queries, RCA tools), \textbf{Performance}, and \textbf{Production Support}}
+        % \item {Developed a set of social features on the app aimed at improving the community interaction.}
+        \item {\textit{\href{}{\color{awesome-red} Tech Stack:}} \textbf{Golang, Python, Java, MySQL}}
+      \end{cvitems}
+    }
+
+
+%---------------------------------------------------------
+  \cventry
+    {Software Engineering Intern} % Job title
+    {Amazon} % Organization
+    {Bangalore | Remote} % Location
+    {Jan 2021 - July 2021} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {\textbf{Implemented} the design for the \textbf{service migration} of Amazon Pay on \textbf{Amazon.com/Your-Orders} Page.}
+        \item {Wrote SJCL contracts (Internal Java Library) to correctly \textbf{navigate complex business conditions} and show the intended data on the page.}
+        \item {Suggested \textbf{design changes to improve performance}, participated in \textbf{design reviews}, set up new repositories in Amazon Pay, and wrote \textbf{detailed documentation} for its usage.}
+        \item {\textbf{Collaborated with overseas sister teams} for code reviews, deployments and contributed to their code base to enable Amazon Pay functionality.}
+        \item {\textbf{Successfully migrated 100\% traffic} to the new endpoint for all devices (mobiles, tablets, and PCs), impacting all customers in North America region.}
+        \item {\textit{\href{}{\color{awesome-red} Tech Stack:}} \textbf{Horizonte (Java Spring Boot), PHP}}
+      \end{cvitems}
+    }
+%---------------------------------------------------------
+
+\end{cventries}
+
+
+
+% ---------- JIO INTERNSHIP EXPERIENCE --------------------%
+% \begin{cventries}
+
+% %---------------------------------------------------------
+%   \cventry
+%     {Internship} % Job title
+%     {Jio AI Center of Excellence} % Organization
+%     {Hyderabad | Remote} % Location
+%     {Jan. 2020 - Jan 2021 } % Date(s)
+%     {
+%       \begin{cvitems} % Description(s) of tasks/responsibilities
+%         \item {Thesis student at the Speechlab of NTU working on the topic Speaker Diarization (the problem of "who spoke when").}
+%         \item {Worked on improving the clustering components of the diarization pipeline.}
+%         \item {Improved the performance of the LSTM based speaker diarization pipeline.}
+%         \item { \textit{\href{}{\color{awesome-red} Tech Stack:}} PyTorch, Conda, Numpy, Kaldi}
+%       \end{cvitems}
+%     }
+% %---------------------------------------------------------
+
+% \end{cventries}
+
+% % ------------------------------------------------------------
+
+
+
+
+
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsection{Notable Projects}
+
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+
+\begin{cventries}
+
+%---------------------------------------------------------
+  \cventry
+    {Graduate Research Assistant | University of Chicago} % Role
+    {Inventory Routing Problem With Time Window Optimization} % Event
+    {Remote} % Location
+    {July 2020 - Jan 2021} % Date(s)
+    {
+      \begin{cvitems} % Description(s)
+        \item {Tasked with reducing the overall cost delivery fleet for replenishing retail stores when the weekly demand is known.}
+        \item {Strict time windows at stores, variable heterogeneous fleet, and unknown intermediate stops were amongst the major constraints.}
+        \item {\textbf{ Integrated Google Maps API}} to accurately calculate routes and cost.
+        \item {\textbf{Developed a Python Library} which computes routes via \textbf{multiple heuristics} and provide insights for each solution.}
+        \item Successfully defended the research as a part of Masters' Degree.
+        \item {\textit{{\color{awesome-red} Tech Stack:}} Python, Gurobi Optimizers (Mixed Integer Linear Programming)}
+        \end{cvitems}
+    }
+
+%---------------------------------------------------------
+  \cventry
+    {Reliance Industries | JIO AI Centre of Excellence} % Role
+    {Mixture of Manifold Experts: Large Scale Classification for Genomics} % Event
+    {Hyderabad, Remote} % Location
+    {Dec 2019 - June 2020} % Date(s)
+    {
+      \begin{cvitems} % Description(s)
+        \item {Built complex mathematical formulations to create affinity networks of data points.}
+        \item {Optimised code to run computation for extremely large (genomics) dataset.}
+        \item {Integrated the entire process with workflow management tools to schedule jobs.}
+        \item {Performance extensive research and experimentation throughout the project.}
+        \item {Received several accolades and follow-on internship offers}
+        \item {\textit{{\color{awesome-red} Tech Stack:}} Python, Scala, Microsoft Azure}
+      \end{cvitems}
+    }
+\end{cventries}
+
+
+
+
+%---------------------------------------------- End of projects section ----------------------------------------------%
+
+
+%-------------------------------------------------------------------------------
+%	Publications
+%-------------------------------------------------------------------------------
+
+\cvsection{Publications}
+
+\begin{cventries}
+
+%---------------------------------------------------------
+  \cventry
+  {}
+  {IEEE} {} {}
+  {
+    \begin{cvitems}
+        \item {P. Shukla, B. Bhandari, \textbf{A. Goel}, et al, \textbf{$"$Fusing Multimodal Human-Robot Communication using Deep Learning$"$}, 2019 International Conference on Electrical, Electronics and Computer Engineering (UPCON), ALIGARH, India, 2019, pp. 1-6, doi: 10.1109/UPCON47278.2019.8980213.}
+    \end{cvitems}}
+\end{cventries}
+
+
+\cvsection{Certifications}
+
+\begin{cventries}
+
+%---------------------------------------------------------
+  \cventry
+  {}
+  {Amazon Web Services} {} {}
+  {
+    \begin{cvitems}
+        \item AWS Certified Cloud Practitioner
+    \end{cvitems}}
+\end{cventries}
+
+
+
+
+% \hspace*{8mm}\textbf{Languages}\hspace*{7mm}English, French \textit{(A1 level)}, Hindi\\
+
+
+
+%-------------------------------------------------------------------------------
+%	SUBSECTION TITLE
+%-------------------------------------------------------------------------------
+
+% ---------------- end of skills section ------------ 
+
+
+
+
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+
+% ----------------- Optional - P and R ---------
+
+% \cvsection{Positions of Responsibility}
+
+% $\bullet$\hspace*{1mm}Co-ordinator at the software development wing of Geekhaven, the technical society of IIIT Allahabad.
+
+% $\bullet$\hspace*{1mm}Head of Public Relations at Aparoksha, Tech Festival of IIIT Allahabad.
+
+% $\bullet$\hspace*{1mm} Coodinator at Sarasva, the literary society at IIIT Allahabad
+
+
+% -------------- End of P and R ----------
+
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Aditya Goel}
+  {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%-------------------------------------------------------------------------------
+% \input{resume/summary.tex}
+% \input{resume/experience.tex}
+% \input{resume/honors.tex}
+% \input{resume/presentation.tex}
+% \input{resume/writing.tex}
+% \input{resume/committees.tex}
+% \input{resume/education.tex}
+% \input{resume/extracurricular.tex}
+
+
+%-------------------------------------------------------------------------------
+\end{document}
